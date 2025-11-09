@@ -331,10 +331,7 @@ public abstract class Base_Class {
 			js.executeScript("document.getElementById('" + idValue +"').value = '" + textValue +"' " );
 			}
 			catch(Exception e ) {
-				Assert.fail("ERROR: OCCURS DURING SCROLL USING SCROLL AND SEND KEYS BY ID  ");
-				
-				
-				
+				Assert.fail("ERROR: OCCURS DURING SCROLL USING SCROLL AND SEND KEYS BY ID");
 			}
 	}
 	
