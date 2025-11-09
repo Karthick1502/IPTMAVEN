@@ -321,7 +321,7 @@ public abstract class Base_Class {
 	        }
 			
 		}catch( Exception e ) {
-			Assert.fail("ERROR: OCCURS DURING SCROLL USING WEBELEMENT ");
+			Assert.fail("ERROR: OCCURS DURING SCROLLING USING WEBELEMENT ");
 		}
 	}
 	
