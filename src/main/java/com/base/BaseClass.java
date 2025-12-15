@@ -425,6 +425,11 @@ public abstract class BaseClass {
 	    Actions actions = new Actions(driver);
 	    actions.sendKeys(key).perform();
 	}
+	
+	private void example() {
+		// TODO Auto-generated method stub
+
+	}
 
 
 }
